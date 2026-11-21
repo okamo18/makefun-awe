@@ -5,11 +5,11 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const entry =
-  "The tide comes in at dusk, slow as a held breath. " +
-  "It smooths the sand, fills each small hollow one by one, and leaves the beach " +
-  "quieter than it found it. " +
-  "Somewhere below, the water keeps the shape of the shore it touched. " +
-  "And the sea, past the last light, is still arriving.";
+  "When the sea goes out, it leaves the rocks with small, still pools. " +
+  "Each pool keeps a piece of the evening sky and does not spill it. " +
+  "The crabs settle. The light goes. " +
+  "And under the dark water, the tide is already turning — patient, unhurried — " +
+  "to come back and fill them.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
